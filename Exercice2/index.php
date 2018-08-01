@@ -1,5 +1,6 @@
 <?php
-function retunrString($str = 'Bonjour je suis une chaine de caractères'){
+//on declare la fonction qui retourne une chaine de caracteres passer en parametre.
+function retunrString($str){
   return $str;
 }
  ?>
@@ -11,7 +12,7 @@ function retunrString($str = 'Bonjour je suis une chaine de caractères'){
   </head>
   <body>
     <p>
-    <?= retunrString() ?>
+    <?= retunrString('Bonjour je suis une chaine caracteres'); //on affiche le retour de la fonction et on donne une valeur a son parametre ?>
   </p>
   </body>
 </html>

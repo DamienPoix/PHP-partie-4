@@ -17,9 +17,7 @@ function returnCalcul($nbm1,$nbm2){
   </head>
   <body>
     <p>
-    <?php
-    echo returnCalcul(20,25);
-    ?>
+    <?= returnCalcul(20,25); ?>
   </p>
   </body>
 </html>

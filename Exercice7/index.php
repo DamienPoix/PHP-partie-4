@@ -20,7 +20,7 @@ function identity($gender = true ,$age = 0){
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Exercice 7</title>
   </head>
   <body>

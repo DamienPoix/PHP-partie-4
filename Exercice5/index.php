@@ -1,8 +1,6 @@
 <?php
 //déclaration pour la concatenation
-function returnConca($str = '',$numb = 5 ){
-  //modification du string
-$str = 'bonjour';
+function returnConca($str = '',$numb = 0 ){
 //return des valeurs
 return $str .' '.$numb;
 }
@@ -15,7 +13,7 @@ return $str .' '.$numb;
   </head>
   <body>
 <p>
-<?= returnConca(); ?>
+<?= returnConca('error',404); ?>
 </p>
   </body>
 </html>
